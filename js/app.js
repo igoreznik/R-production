@@ -7,17 +7,17 @@
 				redirectTo: '/home'
 			})
 			.when('/home', {
-				templateUrl: '/templates/home.html'
+				templateUrl: '../templates/home.html'
 			})
 			.when('/gallery', {
-				templateUrl: '/templates/gallery.html',
+				templateUrl: '../templates/gallery.html',
 				controller: 'NavCtrl'
 			})
 			.when('/about', {
-				templateUrl: '/templates/about.html'
+				templateUrl: '../templates/about.html'
 			})
 			.when('/contact', {
-				templateUrl: '/templates/contact.html'
+				templateUrl: '../templates/contact.html'
 			})
 			.otherwise({
 				redirectTo: '/'
