@@ -142,7 +142,7 @@ header {
 }
 
 nav {
-    width: 800px;
+    width: 930px;
     height: 40px;
     background-color: #505654;
     position: absolute;
@@ -171,9 +171,14 @@ nav {
 /* content style
     home data */
 
+.data {
+    height: 570px;
+}
+
 .container {
     position: relative;
     width: 100%;
+    top: 50px;
 }
 
 .wrap-slider {
@@ -348,7 +353,6 @@ nav {
     position: relative;
     float: right;
     margin: 10px;
-    right: 15%;
 }
 
 .wrap-form form label {
@@ -367,9 +371,9 @@ nav {
 }
 
 .wrap-form form input {
-    width: 220px;
-    height: 20px;
-    margin-bottom: 20px;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 30px;
     position: relative;
     right: 20px;
     background-color: #3E4753;
@@ -378,7 +382,7 @@ nav {
 
 fieldset {
     border: 0;
-    width: 100%;
+    width: 620px;
     padding: 20px;
 }
 
@@ -386,7 +390,8 @@ fieldset {
 
 footer {
     position: relative;
-    margin: 10px 0;
+    margin: 50px 0 0;
+    height: 60px;
 }
 
 .copyrights {
