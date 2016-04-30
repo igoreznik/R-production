@@ -202,10 +202,11 @@ nav {
     display: inline-block;
     padding: 5px 0;
     margin: 10px 0;
+    width: 30%;
 }
 
 .container-image {
-    width: 100%;
+    width: 380px;
     overflow-y: scroll;
     height: 360px;
 }
@@ -217,14 +218,13 @@ nav {
 
 .thumbnail-link {
     display: inline-block;
-    width: 110px;
+    width: 100px;
     overflow: hidden;
-    margin: 0 10px 10px 10px;
+    margin: 0 5px 5px 5px;
 }
 
 .thumbnail {
-    height: 100px;
-    /*width: 200px;*/
+    height: 90px;
     position: relative;
     right: 25px;
 }
@@ -261,11 +261,12 @@ nav {
     margin: 20px 20px 0 20px;
     text-align: center;
     position: relative;
-    right: 40px;
+    right: 60px;
 }
 
 .preview {
     height: 350px;
+    width: 100%;
 }
 
 .vertical-line {
